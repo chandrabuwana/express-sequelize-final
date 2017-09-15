@@ -6,8 +6,12 @@
   </head>
   <body>
     <thead>
+      <ul>
+        <li><a href="/supplier">List supplier</a></li>
+        <li><a href="/supplier/add">Add Supplier</a></li>
+      </ul>
       <tr>
-        <th style="text-align:center">id</th>
+        <th style="text-align:center">Id</th>
         <th style="text-align:center">Name</th>
         <th style="text-align:center">Kota</th>
       </tr>
@@ -19,6 +23,7 @@
           <td><%=supplier.name%></td>
           <td><%=supplier.kota%></td>
         </tr>
+        <%})%>
     </tbody>
   </body>
 </html>
