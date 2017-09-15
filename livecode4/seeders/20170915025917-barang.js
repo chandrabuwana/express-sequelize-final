@@ -43,6 +43,8 @@ module.exports = {
     updatedAt:new Date()
   }])
   },
+//name : string
+// kota : string
 
   down: function (queryInterface, Sequelize) {
     /*

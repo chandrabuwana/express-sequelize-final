@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Supplier</title>
+  </head>
+  <body>
+    <thead>
+      <tr>
+        <th style="text-align:center">id</th>
+        <th style="text-align:center">Name</th>
+        <th style="text-align:center">Kota</th>
+      </tr>
+    </thead>
+    <tbody>
+      <%data.forEach((supplier)=>{%>
+        <tr>
+          <td><%=supplier.id%></td>
+          <td><%=supplier.name%></td>
+          <td><%=supplier.kota%></td>
+        </tr>
+    </tbody>
+  </body>
+</html>
